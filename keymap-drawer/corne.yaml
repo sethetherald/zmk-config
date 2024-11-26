@@ -27,9 +27,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Shift
-  - '&psst'
   - {t: ▽, type: trans}
-  - '&ctrlAltDelete'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -58,11 +58,11 @@ layers:
   - )
   - ⌫
   - Ctrl
+  - '&psst'
+  - {t: ▽, type: trans}
+  - '&ctrlAltDelete'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
   - '-'
   - '='
   - '['
@@ -105,6 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - OUT TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,8 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Boot
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
