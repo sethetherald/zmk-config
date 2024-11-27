@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Boot
+  - '&tobootloader'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
