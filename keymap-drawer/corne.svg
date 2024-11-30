@@ -380,6 +380,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Alt</text>
 </g>
+<g class="combo combopos-0">
+<path d="M551,196 l-246,16" class="combo"/>
+<path d="M551,196 l243,-32" class="combo"/>
+<rect rx="6" ry="6" x="537" y="183" width="28" height="26" class="combo"/>
+<text x="551" y="196" class="combo tap">Boot</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 331)" class="layer-lower">
@@ -565,6 +571,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Alt</text>
 </g>
+<g class="combo combopos-0">
+<path d="M551,196 l-246,16" class="combo"/>
+<path d="M551,196 l243,-32" class="combo"/>
+<rect rx="6" ry="6" x="537" y="183" width="28" height="26" class="combo"/>
+<text x="551" y="196" class="combo tap">Boot</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 661)" class="layer-raise">
@@ -741,6 +753,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Alt</text>
 </g>
+<g class="combo combopos-0">
+<path d="M551,196 l-246,16" class="combo"/>
+<path d="M551,196 l243,-32" class="combo"/>
+<rect rx="6" ry="6" x="537" y="183" width="28" height="26" class="combo"/>
+<text x="551" y="196" class="combo tap">Boot</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 992)" class="layer-function">
@@ -794,9 +812,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F12</text>
 </g>
-<g transform="translate(28, 105)" class="key trans keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(28, 105)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Boot</text>
 </g>
 <g transform="translate(84, 105)" class="key trans keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -840,9 +858,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(812, 105)" class="key trans keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(812, 105)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Boot</text>
 </g>
 <g transform="translate(28, 161)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -888,9 +906,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(812, 161)" class="key keypos-35">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;tobootlo…</tspan></text>
+<g transform="translate(812, 161)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(224, 205)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -913,6 +931,12 @@ rect.held, rect.combo.held {
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M551,196 l-246,16" class="combo"/>
+<path d="M551,196 l243,-32" class="combo"/>
+<rect rx="6" ry="6" x="537" y="183" width="28" height="26" class="combo"/>
+<text x="551" y="196" class="combo tap">Boot</text>
 </g>
 </g>
 </g>
