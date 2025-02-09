@@ -21,7 +21,7 @@
         psst: psst {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(L) &kp LS(X) &kp Q &kp DLLR &kp X &kp LS(D) &kp LS(A) &kp PRCNT &kp LS(I) &kp AT &kp Q &kp Q &kp LS(G) &kp J &kp N &kp LS(G) &kp LS(V) &kp M &kp N9 &kp N4>;
+            bindings = <&kp LS(Y) &kp J &kp CARET &kp LS(C) &kp POUND &kp LS(Y) &kp X &kp EXCL &kp F &kp N7 &kp K &kp LS(C) &kp P &kp LS(Q) &kp N8 &kp I &kp AT &kp N3 &kp W &kp N4>;
             label = "PSST";
         };
     };
