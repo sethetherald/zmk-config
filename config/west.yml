@@ -16,7 +16,7 @@ manifest:
     # dongle_display
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
+      revision: v0.3
     # nice_oled - nice_epaper
     - name: zmk-nice-oled
       remote: mctechnology17
