@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
-  LOW:
+  default: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
+    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', lower, ␣, ⏎, raise, '$$mdi:apple-keyboard-option$$']
+  lower:
   - ↹
   - '1'
   - '2'
@@ -43,9 +43,9 @@ layers:
   - {type: held}
   - ␣
   - ⏎
-  - {t: ▽, type: trans}
+  - function
   - $$mdi:apple-keyboard-option$$
-  RAI:
+  raise:
   - ↹
   - '!'
   - '@'
@@ -59,9 +59,9 @@ layers:
   - )
   - $$mdi:backspace-outline$$
   - $$mdi:apple-keyboard-control$$
+  - '&psst'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ctrlAltDelete'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -83,8 +83,54 @@ layers:
   - '|'
   - '~'
   - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
+  - function
   - ␣
   - ⏎
   - {t: '&studio_unlock', type: held}
   - $$mdi:apple-keyboard-option$$
+  function:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+combos:
+- p: [37, 40, 35]
+  k: Boot
